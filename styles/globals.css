@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  height: 102vh;
+  background-image: url('../public/img/bg-cover.jpg');
+  background-size: cover;
+}
