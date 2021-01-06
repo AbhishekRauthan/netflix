@@ -12,11 +12,36 @@ a {
 }
 
 * {
+  font-size: 10px;
   box-sizing: border-box;
 }
 
-.container {
+.header {
   height: 102vh;
-  background-image: url('../public/img/bg-cover.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent),
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url("../public/img/bg-cover.jpg");
   background-size: cover;
 }
+
+h1,h2,h3,h4 {
+  color: white;
+}
+
+.btn {
+  color: white;
+  font-size: 2rem;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.btn-red  {
+  background-color: rgb(229, 9, 20);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

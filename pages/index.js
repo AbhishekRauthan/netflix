@@ -1,4 +1,5 @@
 import Head from "../layout/Head"
+import Header from "../layout/Header"
 
 export default function Home() {
   return (
@@ -6,10 +7,7 @@ export default function Home() {
       {/* Head for changing title */}
       <Head title="Home Page" />
       {/* Home Page */}
-      <div className="container">
-
-        <h1>Hello World!</h1>
-      </div>
+      <Header />
     </div>
   )
 }
